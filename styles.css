@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 105%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+}
+
+h2{
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    align-items: center;
+}
+
+#bill-total-box{
+    height: 60px;
+    width: 80%;
+    background-color: aquamarine;
+    margin-bottom: 40px;
+}
+
+#add-participant{
+    margin-bottom: 60px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+#detail-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(98, 91, 84);
+    justify-content: center;
+}
+
+#remainder-info{
+    display: flex;
+    margin-top: 10px;
+}
