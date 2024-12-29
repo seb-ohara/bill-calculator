@@ -10,6 +10,7 @@ body{
     background-color: rgb(31, 31, 31);
     color: white;
     display: flex;
+    justify-content: center;
 }
 
 h2{
@@ -19,36 +20,64 @@ h2{
 }
 
 #container{
+    background-color: rgb(38, 38, 39);
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vh;
+    width: 80%;
     align-items: center;
 }
 
 #bill-total-box{
-    height: 60px;
+    height: 100px;
     width: 80%;
-    background-color: aquamarine;
     margin-bottom: 40px;
-}
-
-#add-participant{
-    margin-bottom: 60px;
-    padding: 7px;
-    border-radius: 5px;
-    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #detail-box{
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(98, 91, 84);
     justify-content: center;
 }
 
 #remainder-info{
     display: flex;
-    margin-top: 10px;
+    flex-direction: column;
+    background-color: rgb(37, 42, 47);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#remainder-info, p, h3 {
+    margin-left: 8%;
+}
+
+#span2, #span10, #span12, #span15{
+    margin-left: 50px;
+    color: rgb(28, 143, 101);
+}
+
+#bill-button{
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    text-align: center; 
+    margin-top: 20px;
+    font-size: smaller;
+}
+
+#bill-input{
+    width: 50%;
+    padding: 5px;
+}
+
+#remainder-info, p{
+    margin-top: 20px;
 }
