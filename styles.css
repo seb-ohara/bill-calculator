@@ -24,7 +24,7 @@ h2{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 80%;
+    width: 500px;
     align-items: center;
 }
 
@@ -48,7 +48,6 @@ h2{
 #remainder-info{
     display: flex;
     flex-direction: column;
-    background-color: rgb(37, 42, 47);
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -80,4 +79,30 @@ h2{
 
 #remainder-info, p{
     margin-top: 20px;
+}
+
+#span10:hover{
+    color: rgb(93, 92, 128);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#span12:hover{
+    color: rgb(93, 92, 128);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#span15:hover{
+    color: rgb(93, 92, 128);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#modal{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#tipped-bill{
+    color:rgb(28, 143, 101);
+    margin-left: 20px;
 }
